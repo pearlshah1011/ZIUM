@@ -1,0 +1,12 @@
+.banner_img{
+    width: 1260px;
+    height:480px;
+    align-items: center;
+    align-self: center;
+    align-self: normal;
+    
+}
+.carousel{
+    margin-top: 20;
+    background-color: #232f3e;
+}
