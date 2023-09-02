@@ -1,12 +1,19 @@
 .banner_img{
-    width: 1260px;
-    height:480px;
-    align-items: center;
+    width: 610px;
+    height:380px;
+    align-items:right;
     align-self: center;
     align-self: normal;
+    margin-left: 25%;
+    padding-left: 2% ;
+    padding-bottom: 2%;
     
 }
 .carousel{
-    margin-top: 20;
-    background-color: #232f3e;
+    margin-top: 800;
+    
+     /* background-color:#9bafc78f;  */
+     /* background-color: #dbe3ed; */
+     background-color: whitesmoke;
+    padding-top: 2%;
 }

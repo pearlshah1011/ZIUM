@@ -1,7 +1,7 @@
 export const product=[
     { 
         id: 'product1',
-        url: 'https://uploadpie.com/G7tz9X', 
+        url: 'https://m.media-amazon.com/images/I/712AnstzIML._UY879_.jpg', 
         
         title: {
             shortTitle: 'Women',

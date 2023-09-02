@@ -29,7 +29,7 @@ const Slide = ({title}) => {
             <button className='view_btn'>View all</button>
         </div>
 
-        <Divider color="#232f3e" sx={{ height: 1, width: '1250px' }} />
+        <Divider color="#232f3e" sx={{ height: 1, width: '1080px' }} />
 
         <Carousel
          responsive={responsive}
