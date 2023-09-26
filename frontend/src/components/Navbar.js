@@ -5,6 +5,7 @@ import Badge from '@mui/material/Badge';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import { Avatar } from '@material-ui/core';
 import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
+import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
     <div>
@@ -12,7 +13,7 @@ const Navbar = () => {
     <nav>
           <div className='left'>
                 <div className='navlogo'>
-                  <img src="./logo192.png" alt=''/>
+                <NavLink to ="/">  <img src="./logo192.png" alt=''/> </NavLink>
                 </div>
                 <div className='nav_searchbaar'>
                    <input type='text' name='' id=''/>
@@ -26,7 +27,7 @@ const Navbar = () => {
           
            <div className='right'>
               <div className='nav_btn'>
-                <a href=''>SIGN IN</a>
+                <NavLink to ="/login">LOGIN</NavLink>
               </div>
               <div className='cart_btn'>
                 <Badge badgeContent={4} color="primary">
