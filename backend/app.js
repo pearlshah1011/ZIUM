@@ -16,7 +16,10 @@ connectDatabase();
 const product=require("./routes/productRoute");
 app.use("/api/vi",product);
 const user =require("./routes/userRoute")
-app.use("/api/vi",user)
+app.use("/api/vi",user);
+
+const order=require("./routes/orderRoute.js");
+app.use("/api/vi",order);
 
 //Middle ware for error
 const errormiddleware=require("./middleware/error")
