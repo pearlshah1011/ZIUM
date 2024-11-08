@@ -20,7 +20,7 @@ exports.newOrder=catchAsyncError(async(req,res,next)=>{
     });
 });
 
-//get signle order details--admin
+//get single order details--admin
 exports.getSingleOrder=catchAsyncError(async(req,res,next)=>{
 
     const order=await Order.findById(req.params.id).populate("user","name email");

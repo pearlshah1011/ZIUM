@@ -22,6 +22,7 @@ const Footer = () => {
 
       <div className="rightFooter">
         <h4>Also Visit Us On</h4>
+        <a href="https://www.instagram.com/ziumswimwear/">Instagram</a>
         <a href="https://www.amazon.in/s?k=zium+swimwear&crid=3N4ATYMQ7V5Q9&sprefix=zium+swimwear+%2Caps%2C225&ref=nb_sb_noss_2">Amazon</a>
         {/* {/* <a href="http://youtube.com/6packprogramemr">Youtube</a> */}
         <a href="https://www.flipkart.com/search?q=zium%20swimwear&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off">Flipkart</a> 
